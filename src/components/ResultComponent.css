@@ -1,0 +1,44 @@
+.resultTitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xxx-large;
+  color: rgb(243, 247, 44);
+  font-weight: 900;
+}
+
+.resultContainer > div:nth-child(2) {
+  background-color: rgba(250, 235, 215, 0.753);
+  color: black;
+  padding: 20px 30px;
+  width: 40%;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.resultDescription > div:nth-child(2) {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.questionsList{
+    margin: 20px 0;
+}
+
+.questionsList div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .questionsList div p:first-child{
+    align-self: self-start;
+} */
+
+.resultButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+}
